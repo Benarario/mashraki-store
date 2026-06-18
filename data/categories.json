@@ -1,0 +1,80 @@
+{
+  "categories": {
+    "cleaning": {
+      "label": "ניקיון",
+      "url": "/category/ניקיון",
+      "subcategories": [
+        { "label": "שואבי אבק", "url": "/category/שואבי-אבק" },
+        { "label": "שואבי אבק ניטענים", "url": "/category/שואבי-אבק-ניטענים" },
+        { "label": "ניקוי בקיטור", "url": "/category/ניקוי-בקיטור" },
+        { "label": "מטאטא חשמלי", "url": "/category/מטאטא-חשמלי" },
+        { "label": "מכונות כביסה", "url": "/category/מכונות-כביסה" },
+        { "label": "מייבשי כביסה", "url": "/category/מייבשי-כביסה" }
+      ]
+    },
+    "care": {
+      "label": "טיפוח אישי",
+      "url": "/category/טיפוח-אישי",
+      "subcategories": [
+        { "label": "מכונות גילוח", "url": "/category/מכונות-גילוח" },
+        { "label": "מכונות תספורת", "url": "/category/מכונות-תספורת" },
+        { "label": "מייבשי שיער", "url": "/category/מייבשי-שיער" },
+        { "label": "מעצבי שיער", "url": "/category/מעצבי-שיער" },
+        { "label": "מסירי שיער", "url": "/category/מסירי-שיער" },
+        { "label": "מברשת שיניים חשמלית", "url": "/category/מברשת-שיניים-חשמלי" }
+      ]
+    },
+    "phones": {
+      "label": "טלפונים",
+      "url": "/category/טלפונים",
+      "subcategories": [
+        { "label": "טלפון שולחני", "url": "/category/טלפון-שולחני" },
+        { "label": "טלפון אלחוטי", "url": "/category/טלפון-אלחוטי" },
+        { "label": "טלפון סולרי", "url": "/category/טלפון-סולרי" },
+        { "label": "אביזרי טלמון", "url": "/category/אביזרי-טלמון" }
+      ]
+    },
+    "multimedia": {
+      "label": "נגני mp3 ומולטימדיה",
+      "url": "/category/נגני-mp3-ומולטימדיה",
+      "subcategories": [
+        { "label": "טלוויזיות", "url": "/category/טלוויזיות" },
+        { "label": "רדיו", "url": "/category/רדיו" },
+        { "label": "אוזניות אלחוטיות", "url": "/category/אוזניות-אלחוטיות" },
+        { "label": "ממירים", "url": "/category/ממירים" },
+        { "label": "אנטנות", "url": "/category/אנטנות-למימר-דיגטלי" },
+        { "label": "רשמקולים", "url": "/category/רשמקולים" }
+      ]
+    },
+    "winter": {
+      "label": "מוצרי חורף",
+      "url": "/category/מוצרי-חורף",
+      "subcategories": [
+        { "label": "רדיאטורים", "url": "/category/רדיאטורים" },
+        { "label": "תנורי חימום", "url": "/category/תנורי-חימום" },
+        { "label": "מפזרי חום", "url": "/category/מפזרי-חום" },
+        { "label": "כריות חימום", "url": "/category/כריות-חימום" },
+        { "label": "מאווררים", "url": "/category/מאווררים" },
+        { "label": "מזגנים", "url": "/category/מזגנים" }
+      ]
+    },
+    "kitchen": {
+      "label": "למטבח בישול ואפיה",
+      "url": "/category/למטבח-בישול-ואפיה",
+      "subcategories": [
+        { "label": "מיקרוגל", "url": "/category/מיקרוגל" },
+        { "label": "מצנמים", "url": "/category/מצנמים" },
+        { "label": "טוסטר אובן", "url": "/category/טוסטר-אובן" },
+        { "label": "מיקסרים ובלנדרים", "url": "/category/מיקסרים" },
+        { "label": "סירי בישול", "url": "/category/סירי-בישול" },
+        { "label": "מחבת חשמלי", "url": "/category/מחבת-חשמלי" },
+        { "label": "מעבד מזון", "url": "/category/מעבד-מזון" }
+      ]
+    },
+    "scooters": {
+      "label": "קורקינטים חשמליים",
+      "url": "/category/קורקינטים-חשמליים",
+      "subcategories": []
+    }
+  }
+}

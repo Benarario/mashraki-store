@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="he" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>אלקום — חנות מוצרי חשמל לבית מאז 1968</title>
+  <meta name="description" content="אלקום הרצליה — מוצרי חשמל לבית: טיפוח אישי, מטבח, ניקיון, תאורה, אודיו וטלפונים. איכות ושירות מאז 1968.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Heebo:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/styles.css">
+  <script>(function(){try{var t=localStorage.getItem('elecom_theme');if(!t){t=window.matchMedia('(prefers-color-scheme: dark)').matches?'dark':'light';}document.documentElement.setAttribute('data-theme',t);}catch(e){}})();</script>
+</head>
+<body class="home">
+  <a class="skip-link" href="#main">דלג לתוכן המרכזי</a>
+
+  <!-- ===== Header ===== -->
+  <header class="site-header">
+    <div class="container header-bar">
+      <a class="brand" href="index.html" aria-label="אלקום — דף הבית">
+        <img src="assets/img/BN_160.png" alt="אלקום">
+      </a>
+      <form class="search" data-search-form role="search">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4-4"/></svg>
+        <input type="search" name="q" placeholder="חיפוש מוצרים…" aria-label="חיפוש מוצרים">
+      </form>
+      <div class="header-actions">
+        <span data-account></span>
+        <button class="icon-btn" type="button" data-theme-toggle aria-label="מעבר למצב כהה">
+          <svg class="icon-moon" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+          <svg class="icon-sun" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v2M12 20v2M4 12H2M22 12h-2M5 5l1.5 1.5M17.5 17.5 19 19M19 5l-1.5 1.5M6.5 17.5 5 19"/></svg>
+        </button>
+        <a class="icon-btn cart-btn" href="cart.html" aria-label="סל הקניות">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="9" cy="21" r="1"/><circle cx="20" cy="21" r="1"/><path d="M1 1h4l2.7 13.4a2 2 0 0 0 2 1.6h9.7a2 2 0 0 0 2-1.6L23 6H6"/></svg>
+          <span class="badge" data-cart-count hidden>0</span>
+        </a>
+      </div>
+    </div>
+    <nav class="main-nav" aria-label="ניווט ראשי">
+      <div class="container">
+        <button class="nav-toggle" type="button" data-nav-toggle aria-expanded="false" aria-controls="navlist">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M3 6h18M3 12h18M3 18h18"/></svg>
+          <span class="sr-only">פתיחת תפריט</span>
+        </button>
+        <ul id="navlist" data-nav-list>
+          <li><a href="index.html" aria-current="page">בית</a></li>
+          <li class="has-dropdown">
+            <a href="products.html" aria-haspopup="true" aria-expanded="false">כל המוצרים</a>
+            <div class="nav-dropdown" data-cat-dropdown aria-label="קטגוריות"></div>
+          </li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ===== Hero ===== -->
+    <div class="container">
+      <section class="hero">
+        <div class="hero__text">
+          <h1>ברוכים הבאים לחנות האינטרנט של אלקום</h1>
+          <p>מוצרי חשמל לבית במחירים משתלמים — איכות, מקצועיות ושירות אישי מאז 1968.</p>
+          <div class="hero__cta">
+            <a class="btn btn--accent" href="products.html">לכל המוצרים</a>
+            <a class="btn btn--ghost" href="about.html" style="color:#fff;border-color:#fff">הסיפור שלנו</a>
+          </div>
+        </div>
+        <div class="hero-carousel" aria-label="תמונות מוצרים נבחרים">
+          <img src="assets/img/media_6.png" alt="מכונת תספורת MOSER" class="is-active">
+          <img src="assets/img/media_7.png" alt="מסחטה איטית Hurom">
+          <img src="assets/img/media_8.png" alt="מברשת מחליקה DAFNI">
+          <img src="assets/img/media_9.png" alt="מאוורר תקרה עם תאורה">
+          <img src="assets/img/BN_157.jpg" alt="מערכת שמע ביתית">
+          <div class="hero-carousel__dots"></div>
+        </div>
+      </section>
+    </div>
+
+    <!-- ===== Categories ===== -->
+    <section class="section container" aria-labelledby="cat-title">
+      <div class="section__head">
+        <h2 id="cat-title">קניות לפי קטגוריה</h2>
+        <p>כל מה שהבית צריך — במקום אחד.</p>
+      </div>
+      <div class="category-grid">
+        <a class="category-card" href="products.html?cat=care"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="24" cy="24" r="14"/><circle cx="24" cy="24" r="5"/><path d="M35 33l6 6"/><path d="M41 39l12 12a3 3 0 0 1-4 4L37 43z"/></svg></span><h3>טיפוח אישי</h3></a>
+        <a class="category-card" href="products.html?cat=kitchen"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10h24l-3 16H23z"/><path d="M28 26l-2 14a6 6 0 0 0 6 6 6 6 0 0 0 6-6l-2-14"/><path d="M32 46v8"/><path d="M24 54h16"/></svg></span><h3>מטבח וכלי בית</h3></a>
+        <a class="category-card" href="products.html?cat=cleaning"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M40 8l4 22"/><path d="M30 30h28l-3 18a4 4 0 0 1-4 3H37a4 4 0 0 1-4-3z"/><path d="M30 38h28"/><path d="M40 8a5 5 0 0 1 10 0"/><circle cx="16" cy="48" r="6"/><path d="M22 48h11"/></svg></span><h3>ניקיון</h3></a>
+        <a class="category-card" href="products.html?cat=phones"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="20" y="6" width="24" height="52" rx="5"/><path d="M20 16h24"/><path d="M20 48h24"/><circle cx="32" cy="53" r="1.6"/></svg></span><h3>טלפונים</h3></a>
+        <a class="category-card" href="products.html?cat=audio"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="16" y="6" width="32" height="52" rx="5"/><circle cx="32" cy="40" r="10"/><circle cx="32" cy="40" r="3"/><circle cx="32" cy="18" r="3"/></svg></span><h3>אודיו</h3></a>
+        <a class="category-card" href="products.html?cat=multimedia"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M26 46V16l24-5v30"/><circle cx="20" cy="46" r="6"/><circle cx="44" cy="41" r="6"/></svg></span><h3>נגני mp3 ומולטימדיה</h3></a>
+        <a class="category-card" href="products.html?cat=lighting"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M32 8a16 16 0 0 1 10 28c-1.5 1.3-2 2.6-2 4v2H24v-2c0-1.4-.5-2.7-2-4A16 16 0 0 1 32 8z"/><path d="M26 50h12"/><path d="M28 56h8"/></svg></span><h3>תאורה</h3></a>
+        <a class="category-card" href="products.html?cat=scooters"><span class="cat-icon"><svg viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="48" r="7"/><circle cx="50" cy="48" r="7"/><path d="M21 48h22l9-34h6"/><path d="M43 14l-2 8"/></svg></span><h3>קורקינטים חשמליים</h3></a>
+      </div>
+    </section>
+
+    <!-- ===== Promo banners (real Elecom images) ===== -->
+    <section class="section--tight container" aria-label="מבצעים">
+      <div class="promo-strip">
+        <div class="promo-card"><img src="assets/img/media_6.png" alt="מכונת תספורת MOSER איכותית מבית"><a href="products.html?cat=care"><span>טיפוח אישי</span></a></div>
+        <div class="promo-card"><img src="assets/img/media_8.png" alt="מברשת מחליקה DAFNI"><a href="products.html?cat=care"><span>DAFNI</span></a></div>
+        <div class="promo-card"><img src="assets/img/media_9.png" alt="מאוורר תקרה STAR4LIFE"><a href="products.html?cat=lighting"><span>תאורה</span></a></div>
+      </div>
+    </section>
+
+    <!-- ===== Featured products ===== -->
+    <section class="section container" aria-labelledby="feat-title">
+      <div class="section__head">
+        <h2 id="feat-title">מוצרים נבחרים</h2>
+        <p>הכי נמכרים ומומלצים על ידי הלקוחות שלנו.</p>
+      </div>
+      <div class="product-grid" data-featured></div>
+      <p class="text-center" style="margin-top:1.5rem"><a class="btn btn--primary" href="products.html">לכל המוצרים</a></p>
+    </section>
+
+    <!-- ===== Reviews cube ===== -->
+    <section class="section reviews-section" aria-labelledby="rev-title">
+      <div class="container">
+        <div class="section__head">
+          <h2 id="rev-title">לקוחות ממליצים</h2>
+          <p>מה הלקוחות שלנו מספרים על אלקום.</p>
+        </div>
+        <div class="cube-scene" tabindex="0" role="group" aria-label="ביקורות לקוחות — השתמשו בחצים להחלפה">
+          <div class="cube">
+            <figure class="cube__face cube__face--front"><span class="quote-mark" aria-hidden="true">”</span><blockquote></blockquote><cite></cite></figure>
+            <figure class="cube__face cube__face--right"><span class="quote-mark" aria-hidden="true">”</span><blockquote></blockquote><cite></cite></figure>
+            <figure class="cube__face cube__face--back"><span class="quote-mark" aria-hidden="true">”</span><blockquote></blockquote><cite></cite></figure>
+            <figure class="cube__face cube__face--left"><span class="quote-mark" aria-hidden="true">”</span><blockquote></blockquote><cite></cite></figure>
+          </div>
+        </div>
+        <div class="cube-controls">
+          <button class="icon-btn" type="button" data-cube-prev aria-label="ביקורת קודמת"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 6l6 6-6 6"/></svg></button>
+          <div class="cube-dots"></div>
+          <button class="icon-btn" type="button" data-cube-next aria-label="ביקורת הבאה"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 6l-6 6 6 6"/></svg></button>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Trust strip ===== -->
+    <section class="section--tight container">
+      <div class="trust-strip">
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M12 2 4 5v6c0 5 3.5 8 8 11 4.5-3 8-6 8-11V5z"/><path d="M9 12l2 2 4-4"/></svg><div><h3>מאז 1968</h3><p>מעל 45 שנות ניסיון ואמינות בתחום מוצרי החשמל.</p></div></div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 7 9 18l-5-5"/></svg><div><h3>שירות מקצועי</h3><p>צוות מנוסה שילווה אתכם בבחירת המוצר המתאים.</p></div></div>
+        <div class="trust-item"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="11" width="18" height="11" rx="2"/><path d="M7 11V7a5 5 0 0 1 10 0v4"/></svg><div><h3>קנייה מאובטחת</h3><p>תקשורת מוצפנת SSL 128-bit לקנייה בטוחה.</p></div></div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <h3>אלקום</h3>
+        <p class="muted" style="color:var(--color-footer-text)">חנות מוצרי החשמל לבית — איכות, מקצועיות ושירות אישי מאז 1968, בהרצליה.</p>
+      </div>
+      <div>
+        <h3>ניווט</h3>
+        <ul class="footer-links">
+          <li><a href="index.html">בית</a></li>
+          <li><a href="products.html">כל המוצרים</a></li>
+          <li><a href="about.html">אודות</a></li>
+          <li><a href="contact.html">צור קשר</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>מידע</h3>
+        <ul class="footer-links">
+          <li><a href="cart.html">סל הקניות</a></li>
+          <li><a href="checkout.html">תשלום</a></li>
+          <li><a href="accessibility.html">הצהרת נגישות</a></li>
+          <li><a href="privacy.html">מדיניות פרטיות</a></li>
+        </ul>
+      </div>
+      <div>
+        <h3>יצירת קשר</h3>
+        <ul class="footer-contact">
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M21 10c0 7-9 12-9 12s-9-5-9-12a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg><span>רחוב סוקולוב 70, הרצליה</span></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M22 16.9v3a2 2 0 0 1-2.2 2 19.8 19.8 0 0 1-8.6-3 19.5 19.5 0 0 1-6-6 19.8 19.8 0 0 1-3-8.6A2 2 0 0 1 4.1 2h3a2 2 0 0 1 2 1.7c.1.9.4 1.8.7 2.6a2 2 0 0 1-.5 2.1L8.1 9.9a16 16 0 0 0 6 6l1.5-1.2a2 2 0 0 1 2.1-.5c.8.3 1.7.6 2.6.7a2 2 0 0 1 1.7 2z"/></svg><a href="tel:09-9540475" dir="ltr">09-9540475</a></li>
+          <li><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="2" y="4" width="20" height="16" rx="2"/><path d="m22 6-10 7L2 6"/></svg><a href="mailto:elecom9555@gmail.com">elecom9555@gmail.com</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="footer-bottom">© <span data-year>2026</span> אלקום. כל הזכויות שמורות.</div>
+  </footer>
+
+  <script src="assets/js/data.js"></script>
+  <script src="assets/js/cart.js"></script>
+  <script src="assets/js/a11y.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>

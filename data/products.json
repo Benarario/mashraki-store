@@ -1,0 +1,1117 @@
+{
+  "source": "scraped from www.elecom.co.il on 2026-06-17; images are Unsplash-licensed stock per type (see image-credits.md)",
+  "count": 118,
+  "categories": {
+    "cleaning": "ניקיון",
+    "care": "טיפוח אישי",
+    "phones": "טלפונים",
+    "multimedia": "נגני mp3 ומולטימדיה",
+    "winter": "מוצרי חורף",
+    "kitchen": "למטבח בישול ואפיה"
+  },
+  "subcategories": {
+    "cleaning": [
+      "שואבי אבק",
+      "שואבי אבק ניטענים",
+      "ניקוי בקיטור",
+      "מגהצים",
+      "מכונות כביסה"
+    ],
+    "care": [
+      "מכונות גילוח",
+      "מכונות תספורת",
+      "מייבשי שיער",
+      "מעצבי שיער",
+      "מברשת שיניים חשמלית"
+    ],
+    "phones": [
+      "טלפון שולחני",
+      "טלפון אלחוטי"
+    ],
+    "multimedia": [
+      "טלוויזיות",
+      "רדיו",
+      "אוזניות ורמקולים",
+      "ממירים",
+      "אנטנות",
+      "רשמקולים"
+    ],
+    "winter": [
+      "מאווררים",
+      "תנורי חימום",
+      "רדיאטורים"
+    ],
+    "kitchen": [
+      "מיקרוגל",
+      "מצנמים",
+      "טוסטר אובן",
+      "מיקסרים ובלנדרים",
+      "סירי בישול",
+      "מעבד מזון"
+    ]
+  },
+  "products": [
+    {
+      "id": "care-andis-ts2",
+      "name": "מכונת תספורת Andis TS-2",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 279,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "care-moser-4416",
+      "name": "מכונת תספורת MOSER 4416",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 298,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": "נמכר ביותר"
+    },
+    {
+      "id": "care-moser-4431",
+      "name": "מכונת תספורת MOSER 4431-51",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 225,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-wahl-det",
+      "name": "מכונת תספורת Wahl Detailer 08081-016",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 380,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-wahl-clip",
+      "name": "מכונת תספורת Wahl Cordless Magic Clip 8148",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 395,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-rowenta",
+      "name": "מכונת תספורת Rowenta CF7212",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 300,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-panasonic-gp",
+      "name": "מכונת תספורת Panasonic ER-GP80k",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 520,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-omega",
+      "name": "מכונת תספורת OMEGA OM-950",
+      "category": "care",
+      "sub": "מכונות תספורת",
+      "price": 85,
+      "img": "assets/img/products/clipper.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-braun-1170",
+      "name": "מכונת גילוח Braun 1170",
+      "category": "care",
+      "sub": "מכונות גילוח",
+      "price": 150,
+      "img": "assets/img/products/shaver.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-braun-heads",
+      "name": "ראשי גילוח Braun (חילוף)",
+      "category": "care",
+      "sub": "מכונות גילוח",
+      "price": 119,
+      "img": "assets/img/products/shaver.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-parlux-3600",
+      "name": "מייבש שיער PARLUX 3600",
+      "category": "care",
+      "sub": "מייבשי שיער",
+      "price": 545,
+      "img": "assets/img/products/hairdryer.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "care-parlux-4600",
+      "name": "מייבש שיער Parlux 4600",
+      "category": "care",
+      "sub": "מייבשי שיער",
+      "price": 645,
+      "img": "assets/img/products/hairdryer.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-oral-b-1",
+      "name": "מברשת שיניים BRAUN ORAL-B",
+      "category": "care",
+      "sub": "מברשת שיניים חשמלית",
+      "price": 72,
+      "img": "assets/img/products/toothbrush.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-oral-b-2",
+      "name": "מברשת שיניים BRAUN ORAL-B (חילופית)",
+      "category": "care",
+      "sub": "מברשת שיניים חשמלית",
+      "price": 70,
+      "img": "assets/img/products/toothbrush.jpg",
+      "tag": null
+    },
+    {
+      "id": "care-dafni",
+      "name": "מברשת מחליקה DAFNI",
+      "category": "care",
+      "sub": "מעצבי שיער",
+      "price": 229,
+      "img": "assets/img/products/straightener.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-uniden-8401",
+      "name": "טלפון אלחוטי Uniden AS8401",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 149,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "ph-uniden-7401",
+      "name": "טלפון אלחוטי Uniden AS7401",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 149,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tgd310",
+      "name": "טלפון אלחוטי Panasonic KXTGD310",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 280,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tgd313",
+      "name": "טלפון אלחוטי Panasonic KXTGD313",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 549,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tgb210",
+      "name": "טלפון אלחוטי Panasonic KXTGB210",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 195,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-vtech-slb150",
+      "name": "טלפון אלחוטי VTECH SLB150",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 198,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tgc412",
+      "name": "טלפון אלחוטי Panasonic KX-TGC412",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 299,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-vtech-fs6414",
+      "name": "טלפון אלחוטי VTech FS6414-2A",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 350,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tgc410",
+      "name": "טלפון אלחוטי Panasonic KX-TGC410",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 220,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-moto-s3002",
+      "name": "טלפון אלחוטי Motorola S3002",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 299,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-uniden-at41062",
+      "name": "טלפון אלחוטי Uniden AT4106-2WH",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 299,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-uniden-at4106",
+      "name": "טלפון אלחוטי Uniden AT4106",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 199,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-tg6812",
+      "name": "טלפון אלחוטי Panasonic KXTG6812",
+      "category": "phones",
+      "sub": "טלפון אלחוטי",
+      "price": 399,
+      "img": "assets/img/products/cordphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-ts880",
+      "name": "טלפון שולחני Panasonic KXTS880",
+      "category": "phones",
+      "sub": "טלפון שולחני",
+      "price": 239,
+      "img": "assets/img/products/deskphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-pan-ts500",
+      "name": "טלפון שולחני Panasonic TS500",
+      "category": "phones",
+      "sub": "טלפון שולחני",
+      "price": 95,
+      "img": "assets/img/products/deskphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "ph-philips-m20b",
+      "name": "טלפון שולחני Philips M20B/00",
+      "category": "phones",
+      "sub": "טלפון שולחני",
+      "price": 143,
+      "img": "assets/img/products/deskphone.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-sam-43du7100",
+      "name": "טלוויזיה Samsung UE43DU7100 4K 43 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1499,
+      "img": "assets/img/products/tv.jpg",
+      "tag": "חדש"
+    },
+    {
+      "id": "tv-sam-65du7100",
+      "name": "טלוויזיה Samsung UE65DU7100 4K 65 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 2390,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-sam-65u8000",
+      "name": "טלוויזיה Samsung UE65U8000F 4K 65 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1950,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-sam-32h5000",
+      "name": "טלוויזיה Samsung UE32H5000F HD 32 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 990,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-tcl-55p7k",
+      "name": "טלוויזיה TCL 55P7K 4K 55 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1849,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-tcl-65p7k",
+      "name": "טלוויזיה TCL 65P7K 4K 65 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 2290,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-tcl-75p7k",
+      "name": "טלוויזיה TCL 75P7K 4K 75 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 3190,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-tcl-43p635",
+      "name": "טלוויזיה TCL 43P635 4K 43 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1420,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-haier-43k85",
+      "name": "טלוויזיה Haier H43K85FUX 4K 43 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1090,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-haier-50k85",
+      "name": "טלוויזיה Haier H50K85FUX 4K 50 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1290,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-haier-50s80",
+      "name": "טלוויזיה Haier H50S80FUX 4K 50 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 1589,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "tv-tcl-32s5400",
+      "name": "טלוויזיה TCL 32S5400AF Full HD 32 אינץ'",
+      "category": "multimedia",
+      "sub": "טלוויזיות",
+      "price": 849,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-sangean-prd4bt",
+      "name": "רדיו Sangean PR-D4BT",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 499,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-sangean-prd18",
+      "name": "רדיו Sangean PRD18",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 370,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-sangean-dh1000",
+      "name": "רדיו שעון Sangean DH-1000",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 478,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-pan-rxdu10k",
+      "name": "מערכת שמע Panasonic RX-DU10K",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 399,
+      "img": "assets/img/products/radio.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "rad-pan-rf2400",
+      "name": "רדיו Panasonic RF2400",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 150,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-pan-rxd550",
+      "name": "רדיו Panasonic RX-D550",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 499,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-pan-rfp50d",
+      "name": "רדיו Panasonic RF-P50D",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 89,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rad-pan-pm250",
+      "name": "מערכת שמע Panasonic SC-PM250",
+      "category": "multimedia",
+      "sub": "רדיו",
+      "price": 499,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "spk-jbl-flip7",
+      "name": "רמקול JBL Flip 7",
+      "category": "multimedia",
+      "sub": "אוזניות ורמקולים",
+      "price": 360,
+      "img": "assets/img/products/speaker.jpg",
+      "tag": "חדש"
+    },
+    {
+      "id": "spk-jbl-charge5",
+      "name": "רמקול JBL Charge 5",
+      "category": "multimedia",
+      "sub": "אוזניות ורמקולים",
+      "price": 493,
+      "img": "assets/img/products/speaker.jpg",
+      "tag": null
+    },
+    {
+      "id": "rec-philips-dvt1250",
+      "name": "רשמקול Philips DVT1250",
+      "category": "multimedia",
+      "sub": "רשמקולים",
+      "price": 320,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "rec-olympus-vn541",
+      "name": "רשמקול Olympus VN-541PC",
+      "category": "multimedia",
+      "sub": "רשמקולים",
+      "price": 320,
+      "img": "assets/img/products/radio.jpg",
+      "tag": null
+    },
+    {
+      "id": "cvt-sakal-skl06b",
+      "name": "ממיר SAKAL SKL-06B DVB-T2",
+      "category": "multimedia",
+      "sub": "ממירים",
+      "price": 180,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "ant-sakal-eu009",
+      "name": "אנטנה SAKAL EU-009",
+      "category": "multimedia",
+      "sub": "אנטנות",
+      "price": 125,
+      "img": "assets/img/products/tv.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-midea-m600",
+      "name": "שואב אבק Midea M600",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 436,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-ch953",
+      "name": "שואב אבק Shark CH953",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 349,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-dyson-v15s",
+      "name": "שואב אבק Dyson V15s Detect Submarine",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 3189,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": "פרימיום"
+    },
+    {
+      "id": "cln-xiaomi-e10",
+      "name": "שואב אבק רובוטי Xiaomi Mi Robot E10",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 999,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-wd213",
+      "name": "שואב אבק Shark WD213",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 1435,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-iz413",
+      "name": "שואב אבק Shark Hyper Plus IZ413",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 1224,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-hz503",
+      "name": "שואב אבק Shark HZ503 Zero M Power Pro",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 899,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-iz323",
+      "name": "שואב אבק Shark IZ323 Zero M Vertex Double Pro",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 1760,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-iz423",
+      "name": "שואב אבק Shark IZ423 Zero-M Stratos",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 1659,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-dyson-v12",
+      "name": "שואב אבק Dyson V12 Detect Slim Absolute",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 2290,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": "פרימיום"
+    },
+    {
+      "id": "cln-dyson-gen5",
+      "name": "שואב אבק Dyson Gen5 Detect Absolute",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 2750,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-dyson-cy28",
+      "name": "שואב אבק Dyson CY28 Big Ball Parquet 2",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 1945,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-bosch-bcs711",
+      "name": "שואב אבק Bosch Unlimited 7 ProAnimal",
+      "category": "cleaning",
+      "sub": "שואבי אבק ניטענים",
+      "price": 1583,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-midea-vcc36",
+      "name": "שואב אבק Midea VCC36C16",
+      "category": "cleaning",
+      "sub": "שואבי אבק",
+      "price": 239,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-shark-wv250",
+      "name": "מנקה קיטור Shark WV250",
+      "category": "cleaning",
+      "sub": "ניקוי בקיטור",
+      "price": 399,
+      "img": "assets/img/products/vacuum.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-steamery-c2",
+      "name": "מגהץ קיטור Steamery Cirrus No.2",
+      "category": "cleaning",
+      "sub": "ניקוי בקיטור",
+      "price": 699,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-philips-gc1740",
+      "name": "מגהץ Philips GC1740",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 198,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-philips-gc1433",
+      "name": "מגהץ Philips GC1433/30",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 198,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-tefal-fv4870",
+      "name": "מגהץ Tefal FV4870",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 349,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-tefal-fv9845",
+      "name": "מגהץ Tefal FV9845",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 629,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-braun-si5037",
+      "name": "מגהץ Braun SI5037",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 348,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-braun-si3042",
+      "name": "מגהץ Braun SI3042VI",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 299,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-braun-is3157",
+      "name": "מגהץ קיטור Braun IS3157",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 588,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-tefal-gv9230",
+      "name": "תחנת גיהוץ Tefal GV9230",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 999,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-philips-dst8020",
+      "name": "מגהץ Philips DST8020",
+      "category": "cleaning",
+      "sub": "מגהצים",
+      "price": 549,
+      "img": "assets/img/products/iron.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-bosch-wan24",
+      "name": "מכונת כביסה Bosch WAN24068IL 7 ק\"ג",
+      "category": "cleaning",
+      "sub": "מכונות כביסה",
+      "price": 2690,
+      "img": "assets/img/products/washer.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "cln-zanussi-zwf825",
+      "name": "מכונת כביסה Zanussi ZWF825B3W 8 ק\"ג",
+      "category": "cleaning",
+      "sub": "מכונות כביסה",
+      "price": 1890,
+      "img": "assets/img/products/washer.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-candy-cst27",
+      "name": "מכונת כביסה Candy CST27LET/1-S 7 ק\"ג",
+      "category": "cleaning",
+      "sub": "מכונות כביסה",
+      "price": 2290,
+      "img": "assets/img/products/washer.jpg",
+      "tag": null
+    },
+    {
+      "id": "cln-blomberg-tga170",
+      "name": "מייבש כביסה Blomberg TGA170PXO",
+      "category": "cleaning",
+      "sub": "מכונות כביסה",
+      "price": 1390,
+      "img": "assets/img/products/washer.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-gld-atl2615",
+      "name": "תנור חימום Gold Line ATL-2615",
+      "category": "winter",
+      "sub": "תנורי חימום",
+      "price": 398,
+      "img": "assets/img/products/heater.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "win-gld-atl1405",
+      "name": "תנור חימום Gold Line ATL-1405",
+      "category": "winter",
+      "sub": "תנורי חימום",
+      "price": 160,
+      "img": "assets/img/products/heater.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-gld-atl20",
+      "name": "מאוורר שולחני Goldline ATL20",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 199,
+      "img": "assets/img/products/fan.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-gld-atl92",
+      "name": "מאוורר רצפה Goldline ATL92ETW",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 390,
+      "img": "assets/img/products/fan.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-elstr-tfs601",
+      "name": "מאוורר עמודי ElectroStar TFS601",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 225,
+      "img": "assets/img/products/fan.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-elstr-tfw129",
+      "name": "מאוורר רצפה ElectroStar TFW129",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 189,
+      "img": "assets/img/products/fan.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-gld-atl010",
+      "name": "מאוורר שולחני Goldline ATL010",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 105,
+      "img": "assets/img/products/fan.jpg",
+      "tag": null
+    },
+    {
+      "id": "win-star4life",
+      "name": "מאוורר תקרה עם תאורה STAR4LIFE",
+      "category": "winter",
+      "sub": "מאווררים",
+      "price": 299,
+      "img": "assets/img/products/fan.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "kit-kenwood-km630",
+      "name": "מיקסר Kenwood KM630",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 1069,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": "פרימיום"
+    },
+    {
+      "id": "kit-moul-ar110",
+      "name": "מיקסר Moulinex AR110O10",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 199,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-moul-me620",
+      "name": "מיקסר Moulinex ME620",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 599,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-selmor-se633",
+      "name": "מיקסר Selmor SE633",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 249,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-selmor-se240",
+      "name": "מיקסר Selmor SE240",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 240,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-sauter-hm656",
+      "name": "מיקסר Sauter HM656",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 155,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-philips-hr3740",
+      "name": "בלנדר Philips HR3740",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 185,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-ninja-cb103",
+      "name": "בלנדר Ninja CB103",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 419,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-ninja-bn653",
+      "name": "בלנדר Ninja BN653",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 440,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-ninja-nc303",
+      "name": "בלנדר Ninja Creami NC303",
+      "category": "kitchen",
+      "sub": "מיקסרים ובלנדרים",
+      "price": 793,
+      "img": "assets/img/products/mixer.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-magimix-cs5200",
+      "name": "מעבד מזון Magimix CS5200JXL PREMIUM",
+      "category": "kitchen",
+      "sub": "מעבד מזון",
+      "price": 1475,
+      "img": "assets/img/products/foodproc.jpg",
+      "tag": "פרימיום"
+    },
+    {
+      "id": "kit-sauter-fp610",
+      "name": "מעבד מזון Sauter FP610",
+      "category": "kitchen",
+      "sub": "מעבד מזון",
+      "price": 650,
+      "img": "assets/img/products/foodproc.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-gld-atl260",
+      "name": "קוצץ Gold Line ATL260",
+      "category": "kitchen",
+      "sub": "מעבד מזון",
+      "price": 159,
+      "img": "assets/img/products/foodproc.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-gld-atl9999",
+      "name": "מטחנת Gold Line ATL-9999 (6 כוסות)",
+      "category": "kitchen",
+      "sub": "מעבד מזון",
+      "price": 355,
+      "img": "assets/img/products/foodproc.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-gld-atl066",
+      "name": "מטחנת Gold Line ATL066",
+      "category": "kitchen",
+      "sub": "מעבד מזון",
+      "price": 209,
+      "img": "assets/img/products/foodproc.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-midea-em9p",
+      "name": "מיקרוגל MIDEA EM9P032MX",
+      "category": "kitchen",
+      "sub": "מיקרוגל",
+      "price": 495,
+      "img": "assets/img/products/microwave.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-midea-em823",
+      "name": "מיקרוגל MIDEA EM823A2GU",
+      "category": "kitchen",
+      "sub": "מיקרוגל",
+      "price": 449,
+      "img": "assets/img/products/microwave.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-sharp-r327",
+      "name": "מיקרוגל Sharp R-327FHS",
+      "category": "kitchen",
+      "sub": "מיקרוגל",
+      "price": 880,
+      "img": "assets/img/products/microwave.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-ninja-ct683",
+      "name": "טוסטר אובן Ninja CT683",
+      "category": "kitchen",
+      "sub": "טוסטר אובן",
+      "price": 1045,
+      "img": "assets/img/products/toaster.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-ninja-dt203",
+      "name": "טוסטר אובן Ninja DT203",
+      "category": "kitchen",
+      "sub": "טוסטר אובן",
+      "price": 1080,
+      "img": "assets/img/products/toaster.jpg",
+      "tag": "מומלץ"
+    },
+    {
+      "id": "kit-sauter-mag100",
+      "name": "טוסטר Sauter Multi Air Grill 100",
+      "category": "kitchen",
+      "sub": "טוסטר אובן",
+      "price": 900,
+      "img": "assets/img/products/toaster.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-gld-atl801",
+      "name": "טוסטר Gold Line ATL801",
+      "category": "kitchen",
+      "sub": "מצנמים",
+      "price": 199,
+      "img": "assets/img/products/toaster.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-universe-nr713",
+      "name": "סיר Universe NR713",
+      "category": "kitchen",
+      "sub": "סירי בישול",
+      "price": 546,
+      "img": "assets/img/products/cooker.jpg",
+      "tag": null
+    },
+    {
+      "id": "kit-moul-lm91hd27",
+      "name": "מכונת קפה Moulinex LM91HD27",
+      "category": "kitchen",
+      "sub": "מחבת חשמלי",
+      "price": 1197,
+      "img": "assets/img/products/coffee.jpg",
+      "tag": null
+    }
+  ]
+}
