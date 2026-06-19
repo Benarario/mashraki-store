@@ -1,5 +1,5 @@
 {
-  "source": "scraped from www.elecom.co.il on 2026-06-17; images are Unsplash-licensed stock per type (see image-credits.md)",
+  "source": "scraped from www.elecom.co.il on 2026-06-17; images are Unsplash-licensed stock per type (see image-credits.md). specs/stock/rating are PLACEHOLDERS generated in data.js enrichProducts() — replace with real data at launch.",
   "count": 118,
   "categories": {
     "cleaning": "ניקיון",
@@ -7,7 +7,8 @@
     "phones": "טלפונים",
     "multimedia": "נגני mp3 ומולטימדיה",
     "winter": "מוצרי חורף",
-    "kitchen": "למטבח בישול ואפיה"
+    "kitchen": "למטבח בישול ואפיה",
+    "scooters": "קורקינטים חשמליים"
   },
   "subcategories": {
     "cleaning": [
@@ -48,1070 +49,4021 @@
       "מיקסרים ובלנדרים",
       "סירי בישול",
       "מעבד מזון"
-    ]
+    ],
+    "scooters": []
   },
   "products": [
     {
       "id": "care-andis-ts2",
       "name": "מכונת תספורת Andis TS-2",
+      "brand": "Andis",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 279,
       "img": "assets/img/products/clipper.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 35
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מכונת תספורת מקצועית עם להבים מתחלפים ופעולה שקטה. מבית Andis, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-moser-4416",
       "name": "מכונת תספורת MOSER 4416",
+      "brand": "MOSER",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 298,
       "img": "assets/img/products/clipper.jpg",
-      "tag": "נמכר ביותר"
+      "tag": "נמכר ביותר",
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 128
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "תוצרת גרמניה — חדה, עמידה ומדויקת לתספורת ביתית מושלמת. מבית MOSER, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-moser-4431",
       "name": "מכונת תספורת MOSER 4431-51",
+      "brand": "MOSER",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 225,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 45
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "דגם מקצועי של MOSER עם ראש רחב לתספורת מהירה. מבית MOSER, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-wahl-det",
       "name": "מכונת תספורת Wahl Detailer 08081-016",
+      "brand": "Wahl",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 380,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 80
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מכונה אלחוטית מקצועית לפירוט ועיצוב קווים מושלמים. מבית Wahl, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-wahl-clip",
       "name": "מכונת תספורת Wahl Cordless Magic Clip 8148",
+      "brand": "Wahl",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 395,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 83
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Magic Clip האגדית בגרסה אלחוטית — תספורת מדויקת ללא חוטים. מבית Wahl, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-rowenta",
       "name": "מכונת תספורת Rowenta CF7212",
+      "brand": "Rowenta",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 300,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 44
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ראש קרמי, 13 מסרקי אורך וטכנולוגיה צרפתית. מבית Rowenta, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-panasonic-gp",
       "name": "מכונת תספורת Panasonic ER-GP80k",
+      "brand": "Panasonic",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 520,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 50
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "לייני מקצועי של פנסוניק, גוזז נטען עם ראש 45°. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-omega",
       "name": "מכונת תספורת OMEGA OM-950",
+      "brand": "OMEGA",
       "category": "care",
       "sub": "מכונות תספורת",
       "price": 85,
       "img": "assets/img/products/clipper.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 17
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "מקצועית"
+        },
+        {
+          "label": "להבים",
+          "value": "פלדת אל-חלד מתחלפת"
+        },
+        {
+          "label": "הפעלה",
+          "value": "נטענת / חוטית"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מכונת תספורת ביתית קומפקטית עם 4 מסרקים. מבית OMEGA, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-braun-1170",
       "name": "מכונת גילוח Braun 1170",
+      "brand": "Braun",
       "category": "care",
       "sub": "מכונות גילוח",
       "price": 150,
       "img": "assets/img/products/shaver.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 140
+      },
+      "specs": [
+        {
+          "label": "סוג ראש",
+          "value": "צף תלת-ממדי"
+        },
+        {
+          "label": "הפעלה",
+          "value": "סוללה נטענת"
+        },
+        {
+          "label": "שטיפה",
+          "value": "עמיד למים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מגלח BRAUN Series 1 — גילוח נקי ועדין לעור רגיש. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-braun-heads",
       "name": "ראשי גילוח Braun (חילוף)",
+      "brand": "Braun",
       "category": "care",
       "sub": "מכונות גילוח",
       "price": 119,
       "img": "assets/img/products/shaver.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 124
+      },
+      "specs": [
+        {
+          "label": "סוג ראש",
+          "value": "צף תלת-ממדי"
+        },
+        {
+          "label": "הפעלה",
+          "value": "סוללה נטענת"
+        },
+        {
+          "label": "שטיפה",
+          "value": "עמיד למים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ראשים חילופיים מקוריים Braun, תואמים לדגמי Series 3. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-parlux-3600",
       "name": "מייבש שיער PARLUX 3600",
+      "brand": "Parlux",
       "category": "care",
       "sub": "מייבשי שיער",
       "price": 545,
       "img": "assets/img/products/hairdryer.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 62
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מהירויות",
+          "value": "2 מהירויות, 3 דרגות חום"
+        },
+        {
+          "label": "טכנולוגיה",
+          "value": "יוני"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מייבש מקצועי 2200W, נוזל יוני, 2 מהירויות — קל ועמיד. מבית Parlux, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-parlux-4600",
       "name": "מייבש שיער Parlux 4600",
+      "brand": "Parlux",
       "category": "care",
       "sub": "מייבשי שיער",
       "price": 645,
       "img": "assets/img/products/hairdryer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 33
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מהירויות",
+          "value": "2 מהירויות, 3 דרגות חום"
+        },
+        {
+          "label": "טכנולוגיה",
+          "value": "יוני"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "דגם הפרימיום של Parlux עם טכנולוגיית יון מתקדמת. מבית Parlux, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-oral-b-1",
       "name": "מברשת שיניים BRAUN ORAL-B",
+      "brand": "Braun",
       "category": "care",
       "sub": "מברשת שיניים חשמלית",
       "price": 72,
       "img": "assets/img/products/toothbrush.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 99
+      },
+      "specs": [
+        {
+          "label": "תנועות",
+          "value": "מסתובב-מתנדנד"
+        },
+        {
+          "label": "סוללה",
+          "value": "נטענת"
+        },
+        {
+          "label": "טיימר",
+          "value": "מובנה 2 דקות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מברשת שיניים חשמלית Oral-B עם ראש מסתובב. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-oral-b-2",
       "name": "מברשת שיניים BRAUN ORAL-B (חילופית)",
+      "brand": "Braun",
       "category": "care",
       "sub": "מברשת שיניים חשמלית",
       "price": 70,
       "img": "assets/img/products/toothbrush.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 100
+      },
+      "specs": [
+        {
+          "label": "תנועות",
+          "value": "מסתובב-מתנדנד"
+        },
+        {
+          "label": "סוללה",
+          "value": "נטענת"
+        },
+        {
+          "label": "טיימר",
+          "value": "מובנה 2 דקות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ראשי חילוף למברשת Oral-B — 2 יחידות בחבילה. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "care-dafni",
       "name": "מברשת מחליקה DAFNI",
+      "brand": "DAFNI",
       "category": "care",
       "sub": "מעצבי שיער",
       "price": 229,
       "img": "assets/img/products/straightener.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 100
+      },
+      "specs": [
+        {
+          "label": "חימום",
+          "value": "קרמי מהיר"
+        },
+        {
+          "label": "טמפרטורה",
+          "value": "עד 230°C"
+        },
+        {
+          "label": "מתח",
+          "value": "100–240V"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מחליקה את השיער במחי תנועה אחד — חימום מהיר וטכנולוגיה קרמית. מבית DAFNI, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-uniden-8401",
       "name": "טלפון אלחוטי Uniden AS8401",
+      "brand": "Uniden",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 149,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 28
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "טלפון DECT ענטנה כפולה, שיחה עד 10 שעות, ID מתקשר. מבית Uniden, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-uniden-7401",
       "name": "טלפון אלחוטי Uniden AS7401",
+      "brand": "Uniden",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 149,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 57
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "DECT 6.0 עם תאורה, מסך גדול ואיכות שמע גבוהה. מבית Uniden, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tgd310",
       "name": "טלפון אלחוטי Panasonic KXTGD310",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 280,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 126
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ידנית ארגונומית, ניטרול רעשים מתקדם, ID מתקשר. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tgd313",
       "name": "טלפון אלחוטי Panasonic KXTGD313",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 549,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 129
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ערכת 3 ידניות, Link-to-Cell, ניטרול רעש מתקדם. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tgb210",
       "name": "טלפון אלחוטי Panasonic KXTGB210",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 195,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 63
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "עיצוב קומפקטי, מסך אחורי, 50 שמות בזיכרון. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-vtech-slb150",
       "name": "טלפון אלחוטי VTECH SLB150",
+      "brand": "VTECH",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 198,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 133
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "VTech DECT עם ספקטרום נרחב ושמע קריסטלי. מבית VTECH, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tgc412",
       "name": "טלפון אלחוטי Panasonic KX-TGC412",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 299,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 138
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ערכת שתי ידניות, מסכי LCD גדולים, GAP טכנולוגיה. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-vtech-fs6414",
       "name": "טלפון אלחוטי VTech FS6414-2A",
+      "brand": "VTECH",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 350,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 72
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ערכת 2+1 ידניות, מסכי צבע, מענה אוטומטי. מבית VTECH, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tgc410",
       "name": "טלפון אלחוטי Panasonic KX-TGC410",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 220,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 136
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ידנית בודדת, מסך 1.6 אינץ', 50 שמות בזיכרון. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-moto-s3002",
       "name": "טלפון אלחוטי Motorola S3002",
+      "brand": "Motorola",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 299,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 115
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "DECT מוטורולה עם שמע ברור ועיצוב סלים. מבית Motorola, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-uniden-at41062",
       "name": "טלפון אלחוטי Uniden AT4106-2WH",
+      "brand": "Uniden",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 299,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 109
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ערכת 2 ידניות, מסכי LED גדולים, ID מתקשר. מבית Uniden, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-uniden-at4106",
       "name": "טלפון אלחוטי Uniden AT4106",
+      "brand": "Uniden",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 199,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 113
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "DECT עם ידנית אחת, מסך גדול ואיכות שמע גבוהה. מבית Uniden, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-tg6812",
       "name": "טלפון אלחוטי Panasonic KXTG6812",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון אלחוטי",
       "price": 399,
       "img": "assets/img/products/cordphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 107
+      },
+      "specs": [
+        {
+          "label": "טכנולוגיה",
+          "value": "DECT 6.0"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "זיכרון",
+          "value": "עד 50 מספרים"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ערכת 2 ידניות Link-to-Cell לחיבור לסמארטפון. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-ts880",
       "name": "טלפון שולחני Panasonic KXTS880",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון שולחני",
       "price": 239,
       "img": "assets/img/products/deskphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 32
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "חוטי שולחני"
+        },
+        {
+          "label": "מסך",
+          "value": "תאורה אחורית"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "טלפון שולחני קלאסי עם שפופרת מוגברת ו-ID מתקשר. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-pan-ts500",
       "name": "טלפון שולחני Panasonic TS500",
+      "brand": "Panasonic",
       "category": "phones",
       "sub": "טלפון שולחני",
       "price": 95,
       "img": "assets/img/products/deskphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 121
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "חוטי שולחני"
+        },
+        {
+          "label": "מסך",
+          "value": "תאורה אחורית"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "טלפון שולחני פשוט ואמין, מסך גדול לראייה קלה. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ph-philips-m20b",
       "name": "טלפון שולחני Philips M20B/00",
+      "brand": "Philips",
       "category": "phones",
       "sub": "טלפון שולחני",
       "price": 143,
       "img": "assets/img/products/deskphone.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 76
+      },
+      "specs": [
+        {
+          "label": "סוג",
+          "value": "חוטי שולחני"
+        },
+        {
+          "label": "מסך",
+          "value": "תאורה אחורית"
+        },
+        {
+          "label": "זיהוי שיחה",
+          "value": "כן"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "פיליפס בעל מסך מואר, זיכרון 20 מספרים ועמידות גבוהה. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-sam-43du7100",
       "name": "טלוויזיה Samsung UE43DU7100 4K 43 אינץ'",
+      "brand": "Samsung",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1499,
       "img": "assets/img/products/tv.jpg",
-      "tag": "חדש"
+      "tag": "חדש",
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 127
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Samsung Crystal UHD 43 אינץ', 4K, HDR, Smart TV. מבית Samsung, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-sam-65du7100",
       "name": "טלוויזיה Samsung UE65DU7100 4K 65 אינץ'",
+      "brand": "Samsung",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 2390,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 83
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Samsung Crystal 4K 65 אינץ', HDR10+, Tizen OS. מבית Samsung, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-sam-65u8000",
       "name": "טלוויזיה Samsung UE65U8000F 4K 65 אינץ'",
+      "brand": "Samsung",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1950,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 73
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Samsung 4K QLED 65 אינץ', 144Hz, Smart TV עם Tizen. מבית Samsung, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-sam-32h5000",
       "name": "טלוויזיה Samsung UE32H5000F HD 32 אינץ'",
+      "brand": "Samsung",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 990,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 87
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Full HD 32 אינץ', 2 HDMI, USB, עיצוב דק. מבית Samsung, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-tcl-55p7k",
       "name": "טלוויזיה TCL 55P7K 4K 55 אינץ'",
+      "brand": "TCL",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1849,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 29
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "TCL 4K HDR 55 אינץ', Google TV, Dolby Atmos, MEMC. מבית TCL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-tcl-65p7k",
       "name": "טלוויזיה TCL 65P7K 4K 65 אינץ'",
+      "brand": "TCL",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 2290,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 110
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "TCL 4K HDR 65 אינץ', Google TV, Dolby Vision ואטמוס. מבית TCL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-tcl-75p7k",
       "name": "טלוויזיה TCL 75P7K 4K 75 אינץ'",
+      "brand": "TCL",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 3190,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 51
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "TCL 4K 75 אינץ', Google TV, MEMC, Dolby Atmos. מבית TCL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-tcl-43p635",
       "name": "טלוויזיה TCL 43P635 4K 43 אינץ'",
+      "brand": "TCL",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1420,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 126
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "TCL 4K 43 אינץ', Android TV, HDR10, Dolby Audio. מבית TCL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-haier-43k85",
       "name": "טלוויזיה Haier H43K85FUX 4K 43 אינץ'",
+      "brand": "Haier",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1090,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 22
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Haier QLED 4K 43 אינץ', Google TV, DTS Virtual X. מבית Haier, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-haier-50k85",
       "name": "טלוויזיה Haier H50K85FUX 4K 50 אינץ'",
+      "brand": "Haier",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1290,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 50
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Haier QLED 4K 50 אינץ', Google TV, HDR10+, 60Hz. מבית Haier, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-haier-50s80",
       "name": "טלוויזיה Haier H50S80FUX 4K 50 אינץ'",
+      "brand": "Haier",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 1589,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 33
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Haier 4K OLED 50 אינץ', Google TV, Dolby Vision. מבית Haier, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "tv-tcl-32s5400",
       "name": "טלוויזיה TCL 32S5400AF Full HD 32 אינץ'",
+      "brand": "TCL",
       "category": "multimedia",
       "sub": "טלוויזיות",
       "price": 849,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 116
+      },
+      "specs": [
+        {
+          "label": "רזולוציה",
+          "value": "4K UHD"
+        },
+        {
+          "label": "מערכת",
+          "value": "Smart TV"
+        },
+        {
+          "label": "חיבורים",
+          "value": "HDMI ×3, USB"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "TCL Full HD 32 אינץ', Android TV, HDR, Dolby Audio. מבית TCL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-sangean-prd4bt",
       "name": "רדיו Sangean PR-D4BT",
+      "brand": "Sangean",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 499,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 38
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רדיו נייד DAB+/FM עם Bluetooth ושמע עשיר. מבית Sangean, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-sangean-prd18",
       "name": "רדיו Sangean PRD18",
+      "brand": "Sangean",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 370,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 95
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רדיו FM/AM אנלוגי נייד, עמיד ואיכותי. מבית Sangean, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-sangean-dh1000",
       "name": "רדיו שעון Sangean DH-1000",
+      "brand": "Sangean",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 478,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 113
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רדיו שעון עם תאורה, מעורר כפול ושמע FM/AM. מבית Sangean, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-pan-rxdu10k",
       "name": "מערכת שמע Panasonic RX-DU10K",
+      "brand": "Panasonic",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 399,
       "img": "assets/img/products/radio.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 113
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מערכת שמע ביתית עם Bluetooth, FM, USB ו-CD. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-pan-rf2400",
       "name": "רדיו Panasonic RF2400",
+      "brand": "Panasonic",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 150,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 130
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רדיו נייד קומפקטי AM/FM, סוללות AA. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-pan-rxd550",
       "name": "רדיו Panasonic RX-D550",
+      "brand": "Panasonic",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 499,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 134
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מגהה נייד עם Bluetooth, CD, FM/AM ו-USB. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-pan-rfp50d",
       "name": "רדיו Panasonic RF-P50D",
+      "brand": "Panasonic",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 89,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 45
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רדיו ידני FM/AM פשוט ואמין לשימוש יומיומי. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rad-pan-pm250",
       "name": "מערכת שמע Panasonic SC-PM250",
+      "brand": "Panasonic",
       "category": "multimedia",
       "sub": "רדיו",
       "price": 499,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 8
+      },
+      "specs": [
+        {
+          "label": "גלים",
+          "value": "FM/AM"
+        },
+        {
+          "label": "חיבור",
+          "value": "Bluetooth / USB"
+        },
+        {
+          "label": "הזנה",
+          "value": "רשת / סוללות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מערכת מיני עם CD, Bluetooth, USB, FM — 80W. מבית Panasonic, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "spk-jbl-flip7",
       "name": "רמקול JBL Flip 7",
+      "brand": "JBL",
       "category": "multimedia",
       "sub": "אוזניות ורמקולים",
       "price": 360,
       "img": "assets/img/products/speaker.jpg",
-      "tag": "חדש"
+      "tag": "חדש",
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 14
+      },
+      "specs": [
+        {
+          "label": "חיבור",
+          "value": "Bluetooth"
+        },
+        {
+          "label": "עמידות",
+          "value": "IP67 מוגן מים"
+        },
+        {
+          "label": "סוללה",
+          "value": "עד 12 שעות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רמקול Bluetooth נייד, עמיד למים IP67, 12 שעות סוללה. מבית JBL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "spk-jbl-charge5",
       "name": "רמקול JBL Charge 5",
+      "brand": "JBL",
       "category": "multimedia",
       "sub": "אוזניות ורמקולים",
       "price": 493,
       "img": "assets/img/products/speaker.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 121
+      },
+      "specs": [
+        {
+          "label": "חיבור",
+          "value": "Bluetooth"
+        },
+        {
+          "label": "עמידות",
+          "value": "IP67 מוגן מים"
+        },
+        {
+          "label": "סוללה",
+          "value": "עד 12 שעות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רמקול Bluetooth עמיד IP67 עם Power Bank מובנה. מבית JBL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rec-philips-dvt1250",
       "name": "רשמקול Philips DVT1250",
+      "brand": "Philips",
       "category": "multimedia",
       "sub": "רשמקולים",
       "price": 320,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 133
+      },
+      "specs": [
+        {
+          "label": "זיכרון",
+          "value": "8GB מובנה"
+        },
+        {
+          "label": "חיבור",
+          "value": "USB"
+        },
+        {
+          "label": "פורמט",
+          "value": "MP3/WAV"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רשמקול דיגיטלי 8GB, USB ישיר, הפעלה פשוטה. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "rec-olympus-vn541",
       "name": "רשמקול Olympus VN-541PC",
+      "brand": "Olympus",
       "category": "multimedia",
       "sub": "רשמקולים",
       "price": 320,
       "img": "assets/img/products/radio.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 85
+      },
+      "specs": [
+        {
+          "label": "זיכרון",
+          "value": "8GB מובנה"
+        },
+        {
+          "label": "חיבור",
+          "value": "USB"
+        },
+        {
+          "label": "פורמט",
+          "value": "MP3/WAV"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רשמקול קומפקטי עם 4GB פנימי ו-USB. מבית Olympus, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cvt-sakal-skl06b",
       "name": "ממיר SAKAL SKL-06B DVB-T2",
+      "brand": "SAKAL",
       "category": "multimedia",
       "sub": "ממירים",
       "price": 180,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 65
+      },
+      "specs": [
+        {
+          "label": "תקן",
+          "value": "DVB-T2"
+        },
+        {
+          "label": "רזולוציה",
+          "value": "עד 4K"
+        },
+        {
+          "label": "הקלטה",
+          "value": "USB PVR"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "ממיר ל-DVB-T2 עם תמיכה ב-4K ו-USB PVR. מבית SAKAL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "ant-sakal-eu009",
       "name": "אנטנה SAKAL EU-009",
+      "brand": "SAKAL",
       "category": "multimedia",
       "sub": "אנטנות",
       "price": 125,
       "img": "assets/img/products/tv.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 134
+      },
+      "specs": [
+        {
+          "label": "תחום",
+          "value": "UHF/VHF"
+        },
+        {
+          "label": "סוג",
+          "value": "פנימית/חיצונית"
+        },
+        {
+          "label": "חיבור",
+          "value": "מחבר קואקסיאלי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "אנטנה לממיר דיגיטלי לשידורים ב-UHF/VHF. מבית SAKAL, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-midea-m600",
       "name": "שואב אבק Midea M600",
+      "brand": "Midea",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 436,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 46
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אבק חוטי 2200W עם מיכל 2.5 ליטר וסינון HEPA. מבית Midea, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-ch953",
       "name": "שואב אבק Shark CH953",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 349,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 94
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אבק אלחוטי נטען, קל משקל עם זמן פעולה 40 דק'. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-dyson-v15s",
       "name": "שואב אבק Dyson V15s Detect Submarine",
+      "brand": "Dyson",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 3189,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": "פרימיום"
+      "tag": "פרימיום",
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 105
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Dyson V15 עם חיישן לייזר לגילוי אבק, עמוד ניקוי לרצפות קשות. מבית Dyson, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-xiaomi-e10",
       "name": "שואב אבק רובוטי Xiaomi Mi Robot E10",
+      "brand": "Xiaomi",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 999,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 122
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "רובוט שואב אבק עם ניווט LDS, 2700 Pa ושטיפה בו-זמנית. מבית Xiaomi, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-wd213",
       "name": "שואב אבק Shark WD213",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 1435,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 19
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אבק רטוב/יבש עוצמתי לכל סוגי הרצפות. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-iz413",
       "name": "שואב אבק Shark Hyper Plus IZ413",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 1224,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 29
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אלחוטי Anti Hair Wrap, סוללה כפולה נשלפת. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-hz503",
       "name": "שואב אבק Shark HZ503 Zero M Power Pro",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 899,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 38
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אנכי עם טכנולוגיית Zero-M לניקוי עצמי של המברשת. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-iz323",
       "name": "שואב אבק Shark IZ323 Zero M Vertex Double Pro",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 1760,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 79
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב אלחוטי DuoClean עם 2 סוללות וזמן עבודה ארוך. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-iz423",
       "name": "שואב אבק Shark IZ423 Zero-M Stratos",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 1659,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 60
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Stratos עם טכנולוגיית Anti-Odour וניקוי עצמי. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-dyson-v12",
       "name": "שואב אבק Dyson V12 Detect Slim Absolute",
+      "brand": "Dyson",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 2290,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": "פרימיום"
+      "tag": "פרימיום",
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 131
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Dyson V12 קל משקל עם חיישן לייזר ומסך LCD. מבית Dyson, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-dyson-gen5",
       "name": "שואב אבק Dyson Gen5 Detect Absolute",
+      "brand": "Dyson",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 2750,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 137
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "הדגם החזק של Dyson עם סינון HEPA מלא וזיהוי אבק. מבית Dyson, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-dyson-cy28",
       "name": "שואב אבק Dyson CY28 Big Ball Parquet 2",
+      "brand": "Dyson",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 1945,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 116
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב צילינדר Dyson Big Ball עם ראש פרקט עדין. מבית Dyson, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-bosch-bcs711",
       "name": "שואב אבק Bosch Unlimited 7 ProAnimal",
+      "brand": "Bosch",
       "category": "cleaning",
       "sub": "שואבי אבק ניטענים",
       "price": 1583,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 127
+      },
+      "specs": [
+        {
+          "label": "הפעלה",
+          "value": "אלחוטי נטען"
+        },
+        {
+          "label": "זמן עבודה",
+          "value": "עד 40 דקות"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA רב-שלבי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Bosch אלחוטי עם סוללה נשלפת, מתאים לבעלי חיות. מבית Bosch, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-midea-vcc36",
       "name": "שואב אבק Midea VCC36C16",
+      "brand": "Midea",
       "category": "cleaning",
       "sub": "שואבי אבק",
       "price": 239,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 52
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2200W"
+        },
+        {
+          "label": "מיכל",
+          "value": "2.5 ליטר"
+        },
+        {
+          "label": "סינון",
+          "value": "HEPA"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב צילינדר חסכוני עם מיכל ללא שקית. מבית Midea, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-shark-wv250",
       "name": "מנקה קיטור Shark WV250",
+      "brand": "Shark",
       "category": "cleaning",
       "sub": "ניקוי בקיטור",
       "price": 399,
       "img": "assets/img/products/vacuum.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.5,
+        "count": 38
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1500W"
+        },
+        {
+          "label": "חיטוי",
+          "value": "קיטור 99.9%"
+        },
+        {
+          "label": "מוכנות",
+          "value": "כ-20 שניות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "שואב קיטור ידני קטן, מחטא 99.9% חיידקים ללא חומרים. מבית Shark, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-steamery-c2",
       "name": "מגהץ קיטור Steamery Cirrus No.2",
+      "brand": "Steamery",
       "category": "cleaning",
       "sub": "ניקוי בקיטור",
       "price": 699,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 88
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1500W"
+        },
+        {
+          "label": "חיטוי",
+          "value": "קיטור 99.9%"
+        },
+        {
+          "label": "מוכנות",
+          "value": "כ-20 שניות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מגהץ קיטור נייד, 1500W, בוילר 0.2L — מוכן ב-20 שניות. מבית Steamery, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-philips-gc1740",
       "name": "מגהץ Philips GC1740",
+      "brand": "Philips",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 198,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 26
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מגהץ 2000W, קיטור רציף, בסיס נירוסטה לגלישה חלקה. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-philips-gc1433",
       "name": "מגהץ Philips GC1433/30",
+      "brand": "Philips",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 198,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 55
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מגהץ קיטור 2000W עם בסיס קרמי וריסוס כפול. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-tefal-fv4870",
       "name": "מגהץ Tefal FV4870",
+      "brand": "Tefal",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 349,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 138
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Tefal FreeMove, קיטור 40g/דקה, מערכת נגד אבנית. מבית Tefal, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-tefal-fv9845",
       "name": "מגהץ Tefal FV9845",
+      "brand": "Tefal",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 629,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 45
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Tefal Ultraglide, 300ml, בסיס Durilium לגלישה מהירה. מבית Tefal, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-braun-si5037",
       "name": "מגהץ Braun SI5037",
+      "brand": "Braun",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 348,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 48
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Braun CareStyle 5, 2800W, כיבוי אוטומטי. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-braun-si3042",
       "name": "מגהץ Braun SI3042VI",
+      "brand": "Braun",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 299,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 132
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Braun TexStyle 3, בסיס Eloxal לגלישה חלקה. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-braun-is3157",
       "name": "מגהץ קיטור Braun IS3157",
+      "brand": "Braun",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 588,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 69
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "תחנת גיהוץ Braun CareStyle עם לחץ קיטור גבוה. מבית Braun, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-tefal-gv9230",
       "name": "תחנת גיהוץ Tefal GV9230",
+      "brand": "Tefal",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 999,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 114
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Pro Express עם 7.5 בר לחץ וקיטור רב-עוצמתי. מבית Tefal, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-philips-dst8020",
       "name": "מגהץ Philips DST8020",
+      "brand": "Philips",
       "category": "cleaning",
       "sub": "מגהצים",
       "price": 549,
       "img": "assets/img/products/iron.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 103
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2400W"
+        },
+        {
+          "label": "קיטור",
+          "value": "רציף + זרבוב"
+        },
+        {
+          "label": "בסיס",
+          "value": "נירוסטה / קרמי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Azur 8000, 3000W, OptimalTEMP — ללא כוונון חום. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-bosch-wan24",
       "name": "מכונת כביסה Bosch WAN24068IL 7 ק\"ג",
+      "brand": "Bosch",
       "category": "cleaning",
       "sub": "מכונות כביסה",
       "price": 2690,
       "img": "assets/img/products/washer.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 96
+      },
+      "specs": [
+        {
+          "label": "קיבולת",
+          "value": "7 ק\"ג"
+        },
+        {
+          "label": "סחיטה",
+          "value": "1200 סל\"ד"
+        },
+        {
+          "label": "דירוג אנרגטי",
+          "value": "A"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Bosch Serie 4, 7 ק\"ג, 1200 סל\"ד, מנוע EcoSilence. מבית Bosch, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-zanussi-zwf825",
       "name": "מכונת כביסה Zanussi ZWF825B3W 8 ק\"ג",
+      "brand": "Zanussi",
       "category": "cleaning",
       "sub": "מכונות כביסה",
       "price": 1890,
       "img": "assets/img/products/washer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 36
+      },
+      "specs": [
+        {
+          "label": "קיבולת",
+          "value": "7 ק\"ג"
+        },
+        {
+          "label": "סחיטה",
+          "value": "1200 סל\"ד"
+        },
+        {
+          "label": "דירוג אנרגטי",
+          "value": "A"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Zanussi 8 ק\"ג, 1200 סל\"ד, תכנית AquaControl. מבית Zanussi, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-candy-cst27",
       "name": "מכונת כביסה Candy CST27LET/1-S 7 ק\"ג",
+      "brand": "Candy",
       "category": "cleaning",
       "sub": "מכונות כביסה",
       "price": 2290,
       "img": "assets/img/products/washer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 105
+      },
+      "specs": [
+        {
+          "label": "קיבולת",
+          "value": "7 ק\"ג"
+        },
+        {
+          "label": "סחיטה",
+          "value": "1200 סל\"ד"
+        },
+        {
+          "label": "דירוג אנרגטי",
+          "value": "A"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Candy Smart 7 ק\"ג עם חיבור Wi-Fi וניהול מהאפליקציה. מבית Candy, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "cln-blomberg-tga170",
       "name": "מייבש כביסה Blomberg TGA170PXO",
+      "brand": "Blomberg",
       "category": "cleaning",
       "sub": "מכונות כביסה",
       "price": 1390,
       "img": "assets/img/products/washer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 145
+      },
+      "specs": [
+        {
+          "label": "קיבולת",
+          "value": "7 ק\"ג"
+        },
+        {
+          "label": "סחיטה",
+          "value": "1200 סל\"ד"
+        },
+        {
+          "label": "דירוג אנרגטי",
+          "value": "A"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מייבש כביסה במשאבת חום, יעילות אנרגטית גבוהה. מבית Blomberg, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-gld-atl2615",
       "name": "תנור חימום Gold Line ATL-2615",
+      "brand": "Gold Line",
       "category": "winter",
       "sub": "תנורי חימום",
       "price": 398,
       "img": "assets/img/products/heater.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 62
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2000W"
+        },
+        {
+          "label": "דרגות חום",
+          "value": "2 דרגות"
+        },
+        {
+          "label": "בטיחות",
+          "value": "מגן התחממות יתר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "גוף חימום קוורץ עם 2 דרגות חום ומגן בטיחות. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-gld-atl1405",
       "name": "תנור חימום Gold Line ATL-1405",
+      "brand": "Gold Line",
       "category": "winter",
       "sub": "תנורי חימום",
       "price": 160,
       "img": "assets/img/products/heater.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 98
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "2000W"
+        },
+        {
+          "label": "דרגות חום",
+          "value": "2 דרגות"
+        },
+        {
+          "label": "בטיחות",
+          "value": "מגן התחממות יתר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "תנור חימום קומפקטי עם הגנה מפני התחממות יתר. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-gld-atl20",
       "name": "מאוורר שולחני Goldline ATL20",
+      "brand": "Gold Line",
       "category": "winter",
       "sub": "מאווררים",
       "price": 199,
       "img": "assets/img/products/fan.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 92
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר שולחני 30 ס\"מ, 3 מהירויות, כבל 180 ס\"מ. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-gld-atl92",
       "name": "מאוורר רצפה Goldline ATL92ETW",
+      "brand": "Gold Line",
       "category": "winter",
       "sub": "מאווררים",
       "price": 390,
       "img": "assets/img/products/fan.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 31
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר עומד 40 ס\"מ, טיימר 8 שעות, שלט רחוק. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-elstr-tfs601",
       "name": "מאוורר עמודי ElectroStar TFS601",
+      "brand": "ElectroStar",
       "category": "winter",
       "sub": "מאווררים",
       "price": 225,
       "img": "assets/img/products/fan.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 142
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר עמודי 40W, 3 מהירויות, טיימר, ניידות מלאה. מבית ElectroStar, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-elstr-tfw129",
       "name": "מאוורר רצפה ElectroStar TFW129",
+      "brand": "ElectroStar",
       "category": "winter",
       "sub": "מאווררים",
       "price": 189,
       "img": "assets/img/products/fan.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 51
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר רצפה 40 ס\"מ, ראש מתנדנד, 3 מהירויות. מבית ElectroStar, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-gld-atl010",
       "name": "מאוורר שולחני Goldline ATL010",
+      "brand": "Gold Line",
       "category": "winter",
       "sub": "מאווררים",
       "price": 105,
       "img": "assets/img/products/fan.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 77
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר שולחני קומפקטי 20 ס\"מ, שקט ויעיל. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "win-star4life",
       "name": "מאוורר תקרה עם תאורה STAR4LIFE",
+      "brand": "STAR4LIFE",
       "category": "winter",
       "sub": "מאווררים",
       "price": 299,
       "img": "assets/img/products/fan.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 73
+      },
+      "specs": [
+        {
+          "label": "קוטר",
+          "value": "40 ס\"מ"
+        },
+        {
+          "label": "מהירויות",
+          "value": "3 מהירויות"
+        },
+        {
+          "label": "תנועה",
+          "value": "ראש מתנדנד"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מאוורר תקרה עם LED, 3 מהירויות ושלט רחוק. מבית STAR4LIFE, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-kenwood-km630",
       "name": "מיקסר Kenwood KM630",
+      "brand": "Kenwood",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 1069,
       "img": "assets/img/products/mixer.jpg",
-      "tag": "פרימיום"
+      "tag": "פרימיום",
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 62
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר עמידותי 1200W, 5 ליטר, 6 מהירויות + פולס. מבית Kenwood, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-moul-ar110",
       "name": "מיקסר Moulinex AR110O10",
+      "brand": "Moulinex",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 199,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 26
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר ידני 500W, 5 מהירויות + טורבו, קל לניקוי. מבית Moulinex, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-moul-me620",
       "name": "מיקסר Moulinex ME620",
+      "brand": "Moulinex",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 599,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 51
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר 1200W עם קערת 5L, וו לישה, עיצוב פרמיום. מבית Moulinex, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-selmor-se633",
       "name": "מיקסר Selmor SE633",
+      "brand": "Selmor",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 249,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 28
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר ידני 300W, 6 מהירויות, 2 מקצפות + 2 ווי לישה. מבית Selmor, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-selmor-se240",
       "name": "מיקסר Selmor SE240",
+      "brand": "Selmor",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 240,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 132
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר שולחני 1200W, קערת 5 ליטר, 6 מהירויות. מבית Selmor, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-sauter-hm656",
       "name": "מיקסר Sauter HM656",
+      "brand": "Sauter",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 155,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 46
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקסר ידני 350W, 5 מהירויות + טורבו, ידית ארגונומית. מבית Sauter, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-philips-hr3740",
       "name": "בלנדר Philips HR3740",
+      "brand": "Philips",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 185,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.3,
+        "count": 141
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "בלנדר 650W, כוס פלסטיק 2L, להבי נירוסטה, קל לניקוי. מבית Philips, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-ninja-cb103",
       "name": "בלנדר Ninja CB103",
+      "brand": "Ninja",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 419,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 147
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "בלנדר 1100W, כוס 72oz, ריסוק קרח בשנייה. מבית Ninja, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-ninja-bn653",
       "name": "בלנדר Ninja BN653",
+      "brand": "Ninja",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 440,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 58
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "בלנדר Ninja Detect 1400W, AI לזיהוי מרכיבים. מבית Ninja, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-ninja-nc303",
       "name": "בלנדר Ninja Creami NC303",
+      "brand": "Ninja",
       "category": "kitchen",
       "sub": "מיקסרים ובלנדרים",
       "price": 793,
       "img": "assets/img/products/mixer.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 131
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "נפח קערה",
+          "value": "5 ליטר"
+        },
+        {
+          "label": "מהירויות",
+          "value": "6 + פולס"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "יצרנית גלידה/שייק/סורבה, 7 תכניות אוטומטיות. מבית Ninja, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-magimix-cs5200",
       "name": "מעבד מזון Magimix CS5200JXL PREMIUM",
+      "brand": "Magimix",
       "category": "kitchen",
       "sub": "מעבד מזון",
       "price": 1475,
       "img": "assets/img/products/foodproc.jpg",
-      "tag": "פרימיום"
+      "tag": "פרימיום",
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 67
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "אבזרים",
+          "value": "מספר להבים ודיסקים"
+        },
+        {
+          "label": "נפח",
+          "value": "3 ליטר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מעבד מזון 1100W, 5.2L, 4 קערות, 20 אבזרים. מבית Magimix, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-sauter-fp610",
       "name": "מעבד מזון Sauter FP610",
+      "brand": "Sauter",
       "category": "kitchen",
       "sub": "מעבד מזון",
       "price": 650,
       "img": "assets/img/products/foodproc.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.5,
+        "count": 87
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "אבזרים",
+          "value": "מספר להבים ודיסקים"
+        },
+        {
+          "label": "נפח",
+          "value": "3 ליטר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מעבד מזון 1000W, 3 קערות, ג'ולייני, פרוסה ופומפייה. מבית Sauter, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-gld-atl260",
       "name": "קוצץ Gold Line ATL260",
+      "brand": "Gold Line",
       "category": "kitchen",
       "sub": "מעבד מזון",
       "price": 159,
       "img": "assets/img/products/foodproc.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 96
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "אבזרים",
+          "value": "מספר להבים ודיסקים"
+        },
+        {
+          "label": "נפח",
+          "value": "3 ליטר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "קוצץ חשמלי קומפקטי, 500ml, ניקוי קל. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-gld-atl9999",
       "name": "מטחנת Gold Line ATL-9999 (6 כוסות)",
+      "brand": "Gold Line",
       "category": "kitchen",
       "sub": "מעבד מזון",
       "price": 355,
       "img": "assets/img/products/foodproc.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 64
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "אבזרים",
+          "value": "מספר להבים ודיסקים"
+        },
+        {
+          "label": "נפח",
+          "value": "3 ליטר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מטחנת מזון עוצמתית 6 כוסות, להב פלדה. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-gld-atl066",
       "name": "מטחנת Gold Line ATL066",
+      "brand": "Gold Line",
       "category": "kitchen",
       "sub": "מעבד מזון",
       "price": 209,
       "img": "assets/img/products/foodproc.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 140
+      },
+      "specs": [
+        {
+          "label": "הספק",
+          "value": "1000W"
+        },
+        {
+          "label": "אבזרים",
+          "value": "מספר להבים ודיסקים"
+        },
+        {
+          "label": "נפח",
+          "value": "3 ליטר"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מטחנת 500W לתבלינים, קפה, ואגוזים. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-midea-em9p",
       "name": "מיקרוגל MIDEA EM9P032MX",
+      "brand": "Midea",
       "category": "kitchen",
       "sub": "מיקרוגל",
       "price": 495,
       "img": "assets/img/products/microwave.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 47
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "הספק",
+          "value": "900W"
+        },
+        {
+          "label": "תכניות",
+          "value": "8 תכניות אוטומטיות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקרוגל 25L, 900W, 8 תכניות, עיצוב נירוסטה. מבית Midea, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-midea-em823",
       "name": "מיקרוגל MIDEA EM823A2GU",
+      "brand": "Midea",
       "category": "kitchen",
       "sub": "מיקרוגל",
       "price": 449,
       "img": "assets/img/products/microwave.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 105
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "הספק",
+          "value": "900W"
+        },
+        {
+          "label": "תכניות",
+          "value": "8 תכניות אוטומטיות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקרוגל 20L, 700W עם גריל, 6 תכניות. מבית Midea, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-sharp-r327",
       "name": "מיקרוגל Sharp R-327FHS",
+      "brand": "Sharp",
       "category": "kitchen",
       "sub": "מיקרוגל",
       "price": 880,
       "img": "assets/img/products/microwave.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.8,
+        "count": 132
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "הספק",
+          "value": "900W"
+        },
+        {
+          "label": "תכניות",
+          "value": "8 תכניות אוטומטיות"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מיקרוגל Sharp 900W עם גריל, 28L, תצוגה דיגיטלית. מבית Sharp, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-ninja-ct683",
       "name": "טוסטר אובן Ninja CT683",
+      "brand": "Ninja",
       "category": "kitchen",
       "sub": "טוסטר אובן",
       "price": 1045,
       "img": "assets/img/products/toaster.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.4,
+        "count": 58
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "פונקציות",
+          "value": "אפייה, גריל, טיגון אוויר"
+        },
+        {
+          "label": "טיימר",
+          "value": "דיגיטלי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Ninja 12-in-1, 25.5L, אוויר חם, בישול מהיר. מבית Ninja, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-ninja-dt203",
       "name": "טוסטר אובן Ninja DT203",
+      "brand": "Ninja",
       "category": "kitchen",
       "sub": "טוסטר אובן",
       "price": 1080,
       "img": "assets/img/products/toaster.jpg",
-      "tag": "מומלץ"
+      "tag": "מומלץ",
+      "stock": "low",
+      "rating": {
+        "avg": 4.4,
+        "count": 107
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "פונקציות",
+          "value": "אפייה, גריל, טיגון אוויר"
+        },
+        {
+          "label": "טיימר",
+          "value": "דיגיטלי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Ninja Foodi XL Pro, 2 מדפים בו-זמנית, 10 תכניות. מבית Ninja, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-sauter-mag100",
       "name": "טוסטר Sauter Multi Air Grill 100",
+      "brand": "Sauter",
       "category": "kitchen",
       "sub": "טוסטר אובן",
       "price": 900,
       "img": "assets/img/products/toaster.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "out",
+      "rating": {
+        "avg": 4.3,
+        "count": 106
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "25 ליטר"
+        },
+        {
+          "label": "פונקציות",
+          "value": "אפייה, גריל, טיגון אוויר"
+        },
+        {
+          "label": "טיימר",
+          "value": "דיגיטלי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "Sauter 9 בכלי אחד: גריל, אפייה, טיגון אוויר. מבית Sauter, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-gld-atl801",
       "name": "טוסטר Gold Line ATL801",
+      "brand": "Gold Line",
       "category": "kitchen",
       "sub": "מצנמים",
       "price": 199,
       "img": "assets/img/products/toaster.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.9,
+        "count": 77
+      },
+      "specs": [
+        {
+          "label": "פרוסות",
+          "value": "2 פרוסות"
+        },
+        {
+          "label": "דרגות",
+          "value": "7 דרגות השחמה"
+        },
+        {
+          "label": "מגש",
+          "value": "פירורים נשלף"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "טוסטר שתי פרוסות, 7 דרגות השחמה, מגש פירורים. מבית Gold Line, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-universe-nr713",
       "name": "סיר Universe NR713",
+      "brand": "Universe",
       "category": "kitchen",
       "sub": "סירי בישול",
       "price": 546,
       "img": "assets/img/products/cooker.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.7,
+        "count": 68
+      },
+      "specs": [
+        {
+          "label": "נפח",
+          "value": "6 ליטר"
+        },
+        {
+          "label": "תכניות",
+          "value": "14 תכניות"
+        },
+        {
+          "label": "סוג",
+          "value": "סיר לחץ חשמלי"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "סיר לחץ חשמלי 6L, 14 תכניות, לחץ כפול. מבית Universe, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     },
     {
       "id": "kit-moul-lm91hd27",
       "name": "מכונת קפה Moulinex LM91HD27",
+      "brand": "Moulinex",
       "category": "kitchen",
       "sub": "מחבת חשמלי",
       "price": 1197,
       "img": "assets/img/products/coffee.jpg",
-      "tag": null
+      "tag": null,
+      "stock": "in",
+      "rating": {
+        "avg": 4.6,
+        "count": 67
+      },
+      "specs": [
+        {
+          "label": "לחץ",
+          "value": "15 בר"
+        },
+        {
+          "label": "מערכת",
+          "value": "אוטומטית"
+        },
+        {
+          "label": "מיכל",
+          "value": "נשלף"
+        },
+        {
+          "label": "אחריות",
+          "value": "12 חודשים יבואן רשמי"
+        }
+      ],
+      "desc": "מכונת קפה Genio S Touch, לחץ 15 בר, קפוצ'ינו אוטומטי. מבית Moulinex, באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
     }
   ]
 }

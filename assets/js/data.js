@@ -14,6 +14,7 @@ const CATEGORIES = {
   multimedia: "נגני mp3 ומולטימדיה",
   winter:     "מוצרי חורף",
   kitchen:    "למטבח בישול ואפיה",
+  scooters:   "קורקינטים חשמליים",
 };
 
 /* Sub-categories per main category — used by hover dropdowns in nav and product page. */
@@ -24,6 +25,7 @@ const SUBCATEGORIES = {
   multimedia: ["טלוויזיות", "רדיו", "אוזניות ורמקולים", "ממירים", "אנטנות", "רשמקולים"],
   winter:     ["מאווררים", "תנורי חימום", "רדיאטורים"],
   kitchen:    ["מיקרוגל", "מצנמים", "טוסטר אובן", "מיקסרים ובלנדרים", "סירי בישול", "מעבד מזון"],
+  scooters:   [], // matches the real 8-category nav; no products yet (do not invent any)
 };
 
 /* Stock product photos (Unsplash License — free commercial use) mapped per sub-category.
@@ -76,6 +78,7 @@ const ICONS = {
   multimedia: '<svg class="cat-icon-img" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="12" width="52" height="34" rx="4"/><path d="M22 52h20"/><path d="M32 46v6"/><path d="M24 26l14 7-14 7z" fill="currentColor" stroke="none"/></svg>',
   winter:     '<svg class="cat-icon-img" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M32 6v52M6 32h52M14 14l36 36M50 14 14 50"/><circle cx="32" cy="32" r="5"/></svg>',
   kitchen:    '<svg class="cat-icon-img" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M20 10h24l-3 16H23z"/><path d="M28 26l-2 14a6 6 0 0 0 6 6 6 6 0 0 0 6-6l-2-14"/><path d="M32 46v8"/><path d="M24 54h16"/></svg>',
+  scooters:   '<svg class="cat-icon-img" viewBox="0 0 64 64" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="14" cy="48" r="7"/><circle cx="50" cy="48" r="7"/><path d="M21 48h22l9-34h6"/><path d="M43 14l-2 8"/></svg>',
 };
 
 /* ==========================================================================
@@ -257,5 +260,109 @@ const PRODUCTS = [
       if (KEYWORDS[i][0].test(p.name)) { img = KEYWORDS[i][1]; break; }
     }
     p.img = img || SUBIMAGES[p.sub] || p.img || null;
+  });
+})();
+
+/* ==========================================================================
+   Product enrichment — derives the optional fields the UI renders when present:
+   brand, specs[], stock, rating{avg,count}, and a fuller 2-sentence desc.
+
+   IMPORTANT: specs / stock / rating values are PLACEHOLDERS generated from
+   per-sub-category templates (marked `placeholder` below). They are deterministic
+   (seeded by product id) so they stay stable between loads, but they are NOT real
+   manufacturer data — swap them for confirmed values in the launch phase.
+   ========================================================================== */
+(function enrichProducts() {
+  /* Known brands, matched against the product name (longest first). */
+  const BRANDS = [
+    "Gold Line", "Goldline", "ElectroStar", "STAR4LIFE", "Morphy Richards",
+    "Andis", "MOSER", "Wahl", "Rowenta", "Panasonic", "OMEGA", "Braun", "Parlux",
+    "DAFNI", "Oral-B", "ORAL-B", "Uniden", "VTECH", "VTech", "Motorola", "Philips",
+    "Samsung", "TCL", "Haier", "Sangean", "Olympus", "JBL", "SAKAL", "Midea",
+    "Shark", "Dyson", "Xiaomi", "Bosch", "Steamery", "Tefal", "Zanussi", "Candy",
+    "Blomberg", "Kenwood", "Moulinex", "Selmor", "Sauter", "Ninja", "Magimix",
+    "Sharp", "Universe",
+  ];
+  function brandOf(name) {
+    const lc = name.toLowerCase();
+    for (let i = 0; i < BRANDS.length; i++) {
+      if (lc.indexOf(BRANDS[i].toLowerCase()) !== -1) return BRANDS[i] === "Goldline" ? "Gold Line" : BRANDS[i];
+    }
+    return null;
+  }
+
+  /* placeholder spec templates per sub-category (label/value pairs). */
+  const SPEC_TEMPLATES = {
+    "מכונות תספורת":      [["סוג", "מקצועית"], ["להבים", "פלדת אל-חלד מתחלפת"], ["הפעלה", "נטענת / חוטית"]],
+    "מכונות גילוח":       [["סוג ראש", "צף תלת-ממדי"], ["הפעלה", "סוללה נטענת"], ["שטיפה", "עמיד למים"]],
+    "מייבשי שיער":        [["הספק", "2200W"], ["מהירויות", "2 מהירויות, 3 דרגות חום"], ["טכנולוגיה", "יוני"]],
+    "מעצבי שיער":         [["חימום", "קרמי מהיר"], ["טמפרטורה", "עד 230°C"], ["מתח", "100–240V"]],
+    "מברשת שיניים חשמלית": [["תנועות", "מסתובב-מתנדנד"], ["סוללה", "נטענת"], ["טיימר", "מובנה 2 דקות"]],
+    "טלפון אלחוטי":       [["טכנולוגיה", "DECT 6.0"], ["זיהוי שיחה", "כן"], ["זיכרון", "עד 50 מספרים"]],
+    "טלפון שולחני":       [["סוג", "חוטי שולחני"], ["מסך", "תאורה אחורית"], ["זיהוי שיחה", "כן"]],
+    "טלוויזיות":          [["רזולוציה", "4K UHD"], ["מערכת", "Smart TV"], ["חיבורים", "HDMI ×3, USB"]],
+    "רדיו":               [["גלים", "FM/AM"], ["חיבור", "Bluetooth / USB"], ["הזנה", "רשת / סוללות"]],
+    "אוזניות ורמקולים":   [["חיבור", "Bluetooth"], ["עמידות", "IP67 מוגן מים"], ["סוללה", "עד 12 שעות"]],
+    "רשמקולים":           [["זיכרון", "8GB מובנה"], ["חיבור", "USB"], ["פורמט", "MP3/WAV"]],
+    "ממירים":             [["תקן", "DVB-T2"], ["רזולוציה", "עד 4K"], ["הקלטה", "USB PVR"]],
+    "אנטנות":             [["תחום", "UHF/VHF"], ["סוג", "פנימית/חיצונית"], ["חיבור", "מחבר קואקסיאלי"]],
+    "מאווררים":           [["קוטר", "40 ס\"מ"], ["מהירויות", "3 מהירויות"], ["תנועה", "ראש מתנדנד"]],
+    "תנורי חימום":        [["הספק", "2000W"], ["דרגות חום", "2 דרגות"], ["בטיחות", "מגן התחממות יתר"]],
+    "רדיאטורים":          [["צלעות", "11 צלעות"], ["הספק", "2000W"], ["תרמוסטט", "מתכוונן"]],
+    "שואבי אבק":          [["הספק", "2200W"], ["מיכל", "2.5 ליטר"], ["סינון", "HEPA"]],
+    "שואבי אבק ניטענים":  [["הפעלה", "אלחוטי נטען"], ["זמן עבודה", "עד 40 דקות"], ["סינון", "HEPA רב-שלבי"]],
+    "ניקוי בקיטור":       [["הספק", "1500W"], ["חיטוי", "קיטור 99.9%"], ["מוכנות", "כ-20 שניות"]],
+    "מגהצים":             [["הספק", "2400W"], ["קיטור", "רציף + זרבוב"], ["בסיס", "נירוסטה / קרמי"]],
+    "מכונות כביסה":       [["קיבולת", "7 ק\"ג"], ["סחיטה", "1200 סל\"ד"], ["דירוג אנרגטי", "A"]],
+    "מיקסרים ובלנדרים":   [["הספק", "1000W"], ["נפח קערה", "5 ליטר"], ["מהירויות", "6 + פולס"]],
+    "מעבד מזון":          [["הספק", "1000W"], ["אבזרים", "מספר להבים ודיסקים"], ["נפח", "3 ליטר"]],
+    "מיקרוגל":            [["נפח", "25 ליטר"], ["הספק", "900W"], ["תכניות", "8 תכניות אוטומטיות"]],
+    "מצנמים":             [["פרוסות", "2 פרוסות"], ["דרגות", "7 דרגות השחמה"], ["מגש", "פירורים נשלף"]],
+    "טוסטר אובן":         [["נפח", "25 ליטר"], ["פונקציות", "אפייה, גריל, טיגון אוויר"], ["טיימר", "דיגיטלי"]],
+    "סירי בישול":         [["נפח", "6 ליטר"], ["תכניות", "14 תכניות"], ["סוג", "סיר לחץ חשמלי"]],
+    "מחבת חשמלי":         [["לחץ", "15 בר"], ["מערכת", "אוטומטית"], ["מיכל", "נשלף"]],
+  };
+
+  /* Tiny deterministic hash so placeholder stock/rating stay stable per product. */
+  function seed(str) {
+    let h = 0;
+    for (let i = 0; i < str.length; i++) h = (h * 31 + str.charCodeAt(i)) >>> 0;
+    return h;
+  }
+
+  PRODUCTS.forEach(function (p) {
+    const s = seed(p.id);
+
+    /* brand (derived from the name) */
+    if (p.brand == null) p.brand = brandOf(p.name);
+
+    /* specs[] — sub-category template + warranty (placeholder values) */
+    if (p.specs == null) {
+      const tpl = SPEC_TEMPLATES[p.sub] || [];
+      p.specs = tpl.map(function (r) { return { label: r[0], value: r[1] }; });
+      p.specs.push({ label: "אחריות", value: "12 חודשים יבואן רשמי" });
+    }
+
+    /* stock — placeholder: mostly in-stock, a few low, rare out */
+    if (p.stock == null) {
+      const r = s % 14;
+      p.stock = r === 0 ? "out" : (r <= 2 ? "low" : "in"); // placeholder
+    }
+
+    /* rating — placeholder avg 4.3–4.9 with a plausible count */
+    if (p.rating == null) {
+      const avg = Math.round((4.3 + (s % 7) / 10) * 10) / 10; // 4.3–4.9, placeholder
+      const count = 8 + (s % 140);                            // 8–147, placeholder
+      p.rating = { avg: avg, count: count };
+    }
+
+    /* desc — keep the authored first sentence, add a second natural one (our copy) */
+    if (p.desc && !/[.!?]\s+\S/.test(p.desc.trim().replace(/[.!?]$/, ""))) {
+      const first = p.desc.trim().replace(/\s*\.?$/, ".");
+      const tail = p.brand
+        ? " מבית " + p.brand + ", באחריות יבואן רשמי ועם שירות ותמיכה מלאים של אלקום."
+        : " מוצר איכותי באחריות מלאה, עם שירות אישי ותמיכה מקצועית של אלקום.";
+      p.desc = first + tail;
+    }
   });
 })();
